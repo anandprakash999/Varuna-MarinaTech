@@ -42,9 +42,6 @@ describe('PoolingService', () => {
         expect(pool).toBeDefined();
         expect(mockPoolingRepo.savePool).toHaveBeenCalled();
 
-        // S1 gives 40 to S2, 50 to S3. Remaining: 10.
-        // S2 becomes 0.
-        // S3 becomes 0.
 
         const s1 = pool.members.find(m => m.shipId === 'S1');
         const s2 = pool.members.find(m => m.shipId === 'S2');

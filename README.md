@@ -67,5 +67,3 @@ The application follows a **Hexagonal Architecture (Ports & Adapters)** to ensur
 - Backend Unit Tests: `npm test` (Uses Jest)
 - Frontend Tests: `npm test` (Uses Vitest - *Note: Setup required*)
 
-## Screenshots
-(See application running on localhost:5173)
